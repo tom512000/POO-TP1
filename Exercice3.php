@@ -59,3 +59,51 @@ function estBissextile( int $annee ) : string
     }
     return $res;
 }
+echo estBissextile(2024)."\n";
+
+# Question 15
+function auMoinsDeuxVrais( bool $bool1, bool $bool2, bool $bool3 ) : string
+{
+    $res = "Faux";
+    if (($bool1 && $bool2)||($bool1 && $bool3)||($bool2 && $bool3)) {
+        $res = "Vrai";
+    }
+    return $res;
+}
+echo auMoinsDeuxVrais(true, true, false)."\n";
+echo auMoinsDeuxVrais(true, false, false)."\n";
+
+# Question 16
+function exactementDeuxVrais( bool $bool1, bool $bool2, bool $bool3 ) : string
+{
+    $res = "Faux";
+    if (($bool1 && $bool2 && !$bool3)||($bool1 && $bool3 && !$bool2)||($bool2 && $bool3 && !$bool1)) {
+        $res = "Vrai";
+    }
+    return $res;
+}
+echo exactementDeuxVrais(true, true, false)."\n";
+echo exactementDeuxVrais(true, true, true)."\n";
+
+# Question 17
+function saisieReponse() : string
+{
+    $res = strval(readline("Oui ou Non ?"));
+    while (($res != "oui") && ($res != "Oui") && ($res != "OUI") && ($res != "o") && ($res != "O") && ($res != "Yes") && ($res != "yes") && ($res != "YES") && ($res != "y") && ($res != "Y") && ($res != "non") && ($res != "Non") && ($res != "NON") && ($res != "n") && ($res != "N") && ($res != "No") && ($res != "no") && ($res != "NO")){
+        $res = strval(readline("Oui ou Non ?"));
+    }
+    return $res;
+}
+#echo saisieReponse();
+
+# Question 18
+function dessinerRectanglePlein( string $motif, int $nbl, int $nbc ) : void
+{
+    for ($i=0; $i<$nbl; $i++) {
+        for ($j=0; $j<$nbc; $j++) {
+            echo " $motif ";
+        }
+        echo "\n";
+    }
+}
+dessinerRectanglePlein('*', 10, 10);
