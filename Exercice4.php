@@ -112,5 +112,9 @@ function echange( array $tableau, int $ind1, int $ind2 ) : array
     }
     return $tableau;
 }
+echo "\nFonction getIndiceMinimum : \n";
 $tableau = creeTableau(10, 0, 20);
-echange($tableau, 2, 3);
+echo afficheTableau($tableau)."\n";
+echo afficheTableau(echange($tableau, 2, 3));
+
+# Exercices complémentaires
