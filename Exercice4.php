@@ -116,5 +116,3 @@ echo "\nFonction getIndiceMinimum : \n";
 $tableau = creeTableau(10, 0, 20);
 echo afficheTableau($tableau)."\n";
 echo afficheTableau(echange($tableau, 2, 3));
-
-# Exercices complémentaires
