@@ -1,12 +1,14 @@
 <?php
+
 declare(strict_types=1);
 
 # Question 7
-function afficheNomPrenom(string $nom, string $prenom): void
+function afficheNomPrenom(string $nom, string $prenom): string
 {
-    echo "$nom $prenom \n";
+    return "$nom $prenom\n";
 }
-afficheNomPrenom('Sikora', 'Tom');
+echo "Fonction afficheNomPrenom : \n";
+echo afficheNomPrenom('Sikora', 'Tom');
 
 # Question 8
 function calculSomme(int $a, int $b, int $c): int
@@ -14,6 +16,7 @@ function calculSomme(int $a, int $b, int $c): int
     $resultat = $a + $b + $c ;
     return $resultat ;
 }
+echo "\nFonction calculSomme : \n";
 echo calculSomme(2, 3, 4)."\n";
 
 # Question 9
@@ -21,7 +24,8 @@ function getAge(): int
 {
     return intval(readline("Saisissez votre âge !"));
 }
-# echo getAge();
+#echo "\nFonction afficheNomPrenom : \n";
+#echo getAge();
 
 # Question 10
 function plusGrand(int $min, int $max): bool
@@ -35,6 +39,7 @@ function plusGrand(int $min, int $max): bool
     }
     return $res;
 }
+
 function decodeBooleen(bool $bool): string
 {
     $res = "True";
@@ -43,4 +48,6 @@ function decodeBooleen(bool $bool): string
     }
     return $res;
 }
+
+echo "\nFonction plusGrand (et decodeBooleen) : \n";
 echo decodeBooleen(plusGrand(1, 10));
