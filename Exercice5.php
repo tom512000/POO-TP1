@@ -5,11 +5,13 @@ declare(strict_types=1);
 $tableau = array("un", "deux", "trois", "quatre");
 
 # Boucle for
+echo "Boucle for :\n";
 for ($i = 0; $i < count($tableau); $i++) {
     echo "$i - $tableau[$i]\n";
 }
 
 # Boucle foreach
+echo "\nBoucle foreach :\n";
 $nb = 0;
 foreach ($tableau as $element) {
     echo "$nb - $element\n";
@@ -18,6 +20,7 @@ foreach ($tableau as $element) {
 # La boucle foreach ne permet pas de récupérer l'indice des valeurs du tableau.
 
 # Boucle foreach avec l'attribut $cle
+echo "\nBoucle foreach (cle) :\n";
 foreach($tableau as $cle => $element) {
     echo "$cle - $element\n";
 }
@@ -27,11 +30,13 @@ foreach($tableau as $cle => $element) {
 $tableau2 = array(1 => "un", "deux", "trois", "quatre");
 
 # Boucle for
+echo "\nBoucle for :\n";
 for ($i = 1; $i < count($tableau2)+1; $i++) {
     echo "$i - $tableau2[$i]\n";
 }
 
 # Boucle foreach
+echo "\nBoucle foreach :\n";
 $nb = 1;
 foreach ($tableau2 as $element) {
     echo "$nb - $element\n";
@@ -39,19 +44,21 @@ foreach ($tableau2 as $element) {
 }
 
 # Boucle foreach avec l'attribut $cle
+echo "\nBoucle foreach (cle) :\n";
 foreach($tableau2 as $cle => $element) {
     echo "$cle - $element\n";
 }
-# Grâce au mot-clé '1 =>', l'indice des valeurs commence à 1 et non 0.
+# Grâce au mot-clé '1 =>', l'indice des valeurs commence à 1 et non à 0.
 
 # Question 30
 $jours = array(1 => "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche");
 
+echo "\n";
 foreach($jours as $cle => $element) {
     echo "$cle - $element\n";
 }
 
-function determineJour(int $indice, array $tableau) : string
+function determineJour(int $indice, array $tableau): string
 {
     if ($indice >= 1 and $indice <= 7) {
         $res = $tableau[$indice];
@@ -74,11 +81,12 @@ $days = array("Lundi" => "Monday",
     "Samedi" => "Saturday",
     "Dimanche" => "Sunday");
 
+echo "\n";
 foreach($days as $cle => $element) {
     echo "$cle - $element\n";
 }
 
-function traduitEnAnglais(string $cle, array $tableau) : string
+function traduitEnAnglais(string $cle, array $tableau): string
 {
     if (array_key_exists($cle, $tableau)) {
         $res = $tableau[$cle];
@@ -92,7 +100,7 @@ echo "\nFonction traduitEnAnglais : \n";
 echo traduitEnAnglais("Lundi", $days)."\n";
 echo traduitEnAnglais("Sandron", $days)."\n";
 
-function traduitEnFrancais(string $valeur, array $tableau) : string
+function traduitEnFrancais(string $valeur, array $tableau): string
 {
     if (in_array($valeur, $tableau)) {
         $res = array_search($valeur, $tableau);
