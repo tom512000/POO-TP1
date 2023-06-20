@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 # Question 1
@@ -22,16 +23,18 @@ echo gettype($cdc)."\n";
 
 # Question 4
 $str1 = "Phrase";
-echo $str1."\n";
+echo $str1;
+echo "\n";
 $str2 = 'Phrase';
-echo $str2."\n";
+echo $str2;
+echo "\n";
 # Les 2 variables s'affichent de la même façon, elles sont du même type.
 
 # Question 5
 $str3 = "Mot";
 $str4 = "Mot";
 $str5 = $str3.$str4;
-echo $str5."\n";;
+echo $str5."\n";
 # (+) : ne permet pas de concaténation, elle additionne 2 chaines de caractères et donc renvoie une erreur.
 # (.) : permet une concaténation.
 
@@ -43,5 +46,5 @@ $str7 = '$entier\n';
 echo $str7;
 # Les "" permettent de renvoyer la valeur d'une variable contenu dans la chaîne de caractères.
 # Les '' ne permettent pas de renvoyer la valeur d'une variable contenu dans la chaîne de caractères.
-# Idem pour ""
-# Idem pour ''
+# Idem pour "", le saut de ligne est affiché.
+# Idem pour '', le saut de ligne n'est pas affiché.
