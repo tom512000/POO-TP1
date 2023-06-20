@@ -49,5 +49,5 @@ function decodeBooleen(bool $bool): string
     return $res;
 }
 
-echo "\nFonction plusGrand (et decodeBooleen) : \n";
+echo "\nFonction plusGrand : \n";
 echo decodeBooleen(plusGrand(1, 10));
