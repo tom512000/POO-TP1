@@ -1,8 +1,9 @@
-<h1 align="center">
-    🤖<br>POO-TP1
-
-<br>
-</h1>
+<div align="center">
+    <h1>
+        🤖<br>POO-TP1<br>
+        <br>
+    </h1>
+</div>
 
 <br>
 
