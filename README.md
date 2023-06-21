@@ -7,6 +7,10 @@
 
 <br>
 
+---
+
+<br>
+
 ## Sujet 1 : Premiers pas en PHP
 > Buts : Types, Fonctions, Tableaux
 
