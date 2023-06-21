@@ -11,6 +11,10 @@
 
 ## Sujet 1 : Premiers pas en PHP
 > Buts : Types, Fonctions, Tableaux
+>
+> [PDF - TP1](TP1_POO.pdf)
+>
+> [PDF - TP1 Complémentaire](TP1_POO_Complementaire.pdf)
 
 <br>
 
