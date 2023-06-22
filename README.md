@@ -1,11 +1,9 @@
 <div align="center">
-    <h2>
+    <h1>
         🤖<br>POO-TP1<br>
         <br>
-    </h2>
+    </h1>
 </div>
-
----
 
 <br>
 
@@ -19,10 +17,6 @@
 
 <br>
 
----
-
-<br>
-
 <h2>Compétences</h2>
 
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
@@ -31,8 +25,6 @@
 [![GITLAB](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://about.gitlab.com/)
 
 <br>
-
----
 
 <div align="center">
     <br>
