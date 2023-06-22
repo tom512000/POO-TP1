@@ -1,15 +1,16 @@
 <div align="center">
-    <h1>
+    <h2>
         🤖<br>POO-TP1<br>
         <br>
-    </h1>
+    </h2>
 </div>
 
 ---
 
 <br>
 
-## Sujet 1 : Premiers pas en PHP
+<h2>Sujet 1 : Premiers pas en PHP</h2>
+
 > Buts : Types, Fonctions, Tableaux
 >
 > [PDF - TP1](TP1_POO.pdf)
@@ -22,7 +23,7 @@
 
 <br>
 
-## Compétences
+<h2>Compétences</h2>
 
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![MARKDOWN](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
