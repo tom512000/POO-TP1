@@ -11,9 +11,9 @@
 
 > Buts : Types, Fonctions, Tableaux
 >
-> [PDF - TP1](TP1_POO.pdf)
+> [PDF - TP1](files/TP1_POO.pdf)
 >
-> [PDF - TP1 Complémentaire](TP1_POO_Complementaire.pdf)
+> [PDF - TP1 Complémentaire](files/TP1_POO_Complementaire.pdf)
 
 <br>
 
@@ -30,7 +30,7 @@
     <br>
     <br>
     <div>
-        <sub>&copy; 2023 Tom Sikora. Tous droits réservés.</sub>
+        <sub>Copyright &copy; 2023 Tom Sikora. Tous droits reservés.</sub>
     </div>
     <br>
     👨‍💻
